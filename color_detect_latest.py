@@ -23,7 +23,7 @@ def get_limits(color):
 cap = cv2.VideoCapture(0)
 
 # Set to detect colors and their names
-deep_blue_overlay = np.full((480, 640, 3), (255, 50, 0), dtype=np.uint8)  # More intense blue in BGR
+deep_blue_overlay = np.full((480, 640, 3), (255, 150, 0), dtype=np.uint8)  # More intense blue in BGR
 
 while True:
     ret, frame = cap.read()  # Capture frame-by-frame
